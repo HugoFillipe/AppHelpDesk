@@ -16,12 +16,7 @@
 		array('id' => 3, 'email' => 'jose@teste.com.br', 'senha' => '1234', 'perfil_id' => 2),
 		array('id' => 4, 'email' => 'maria@teste.com.br', 'senha' => '1234', 'perfil_id' => 2),
 	);
-
-	/*
-	echo '<pre>';
-	print_r($usuarios_app);
-	echo '</pre>';
-	*/
+	
 
 	foreach($usuarios_app as $user) {
 
@@ -46,23 +41,4 @@
 
 
 
-	/*
-	print_r($_GET);
-
-	echo '<br />';
-
-	echo $_GET['email'];
-	echo '<br />';
-	echo $_GET['senha'];
-	*/
-
-	/*
-	print_r($_POST);
-
-	echo '<br />';
-
-	echo $_POST['email'];
-	echo '<br />';
-	echo $_POST['senha'];
-	*/
 ?>
